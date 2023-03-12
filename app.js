@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "public")));
 
-const dbUrl = process.env.DB_RUL || "mongodb://localhost:27017/campsio";
+const dbUrl = process.env.DB_URL || "mongodb://localhost:27017/campsio";
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
     // useCreateIndex: true,
@@ -102,6 +102,7 @@ app.use((err, req, res, next) => {
     res.status(status).render("error", { err });
 });
 
-app.listen(3000, () => {
-    console.log("Listening on port 3000!");
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`Listening on port ${port}!`);
 });

@@ -19,6 +19,7 @@ At its core, Campsio is all about connecting people with the natural world and h
 
 Campsio provides a range of features to help users search and outlook campsites and other outdoor accommodations:
 
+- **User authentication and authorization:** Users can create an account and log in to the platform. The system provides different levels of access based on the user's role, such as administrator or regular user.
 - **Campsite search:** Users can search for campsites, cabins, and other outdoor accommodations by location, dates, number of guests, and other filters.
 - **Campsite listing:** Campground owners can list their properties with photos, descriptions, amenities, and rates.
 - **Reviews:** Users can leave reviews and ratings for campsites.
@@ -50,5 +51,3 @@ If you would like to contribute to Campsio, please follow these steps:
 3. Make your changes and commit them with descriptive commit messages
 4. Push your changes to your forked repository
 5. Submit a pull request to the original repository
-
-
