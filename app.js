@@ -28,11 +28,10 @@ app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "public")));
 
 const dbUrl = process.env.DB_URL || "mongodb://localhost:27017/campsio";
+mongoose.set("strictQuery", false);
 mongoose.connect(dbUrl, {
     useNewUrlParser: true,
-    // useCreateIndex: true,
     useUnifiedTopology: true,
-    // useFindAndModify: false
 });
 
 const db = mongoose.connection;
@@ -40,16 +39,6 @@ db.on("error", console.error.bind(console, "Connection error: "));
 db.once("open", () => {
     console.log("Database connected successfully!");
 });
-
-// const store = new MongoDBStore({
-//     url: dbUrl,
-//     secret: "iambatman",
-//     touchAfter: 24*60*60
-// });
-
-// store.on("error", function(e) {
-//     console.log("Session Error!",e);
-// });
 
 const secret = process.env.SECRET || "iambatman";
 

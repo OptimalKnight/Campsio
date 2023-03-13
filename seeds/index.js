@@ -3,9 +3,9 @@ const Hotel = require("../models/hotel");
 const cities = require("./cities");
 const { places, descriptors } = require("./seedHelpers");
 
+mongoose.set("strictQuery", false);
 mongoose.connect("mongodb://localhost:27017/campsio", {
     useNewUrlParser: true,
-    // useCreateIndex: true,
     useUnifiedTopology: true
 });
 
@@ -49,6 +49,7 @@ const seedDB = async () => {
         await newHotel.save();
     }
 };
+
 seedDB().then(() => {
     mongoose.connection.close();
 })
