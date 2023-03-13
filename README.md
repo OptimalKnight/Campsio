@@ -45,8 +45,13 @@ Campsio is built using a variety of technologies, including:
 
 ## Screenshots
 
-![S](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+Landing Page
 
+![Landing Page](/images/Landing%20Page.png)
+
+Home Page
+
+![Home Page](/images/Home%20Page.png.png)
 
 
 ## Contributing
