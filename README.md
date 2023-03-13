@@ -27,7 +27,7 @@ Campsio provides a range of features to help users search and outlook campsites 
 
 ## Installation
 
-Campsio is a web-based application that does not require any installation. To access the website, simply navigate to [this](https://campsio.onrender.com) URL where the website is hosted.
+Campsio is a web-based application that does not require any installation. To access the website, simply navigate to [campsio.com](https://campsio.onrender.com) where the website is hosted.
 
 ## Usage
 
@@ -37,20 +37,27 @@ To use Campsio, simply navigate to the website and start browsing for campsites 
 
 Campsio is built using a variety of technologies, including:
 
-- **Node.js:** A JavaScript runtime built on Chrome's V8 JavaScript engine
-- **Express:** A minimal and flexible Node.js web application framework
-- **MongoDB:** A document-based NoSQL database
-- **Bootstrap:** A CSS framework for building responsive web interfaces
+- **Node.js:** A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express:** A minimal and flexible Node.js web application framework.
+- **MongoDB:** A document-based NoSQL database.
+- **Bootstrap:** A CSS framework for building responsive web interfaces.
+
+
+## Screenshots
+
+![S](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
 
 ## Contributing
 
 If you would like to contribute to Campsio, please follow these steps:
 
-1. Fork the repository
-2. Create a new branch for your feature or bug fix
-3. Make your changes and commit them with descriptive commit messages
-4. Push your changes to your forked repository
-5. Submit a pull request to the original repository
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the original repository.
 
 ## Future Scope
 
