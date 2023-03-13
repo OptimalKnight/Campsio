@@ -53,6 +53,30 @@ Campsio is built using a variety of technologies, including:
 
 ![Home Page](/images/Home%20Page.png)
 
+- Registeration Page
+
+![Registeration Page](/images/Registeration%20Page.png)
+
+- Login Page
+
+![Login Page](/images/Login%20Page.png)
+
+- Add Hotel Page
+
+![Add Hotel Page](/images/Add%20Hotel%20Page.png)
+
+- Update Hotel Page
+
+![Update Hotel Page](/images/Update%20Hotel%20Page.png)
+
+- View Hotel Page
+
+![View Hotel Page](/images/View%20Hotel%20Page.png)
+
+- View Hotel Page (Owner)
+
+![View Hotel Page (Owner)](/images/View%20Hotel%20Page%20(Owner).png)
+
 
 ## Contributing
 
@@ -69,3 +93,4 @@ If you would like to contribute to Campsio, please follow these steps:
 The project's scope can be furthur improved by implementing one or more of the following modifications,
 
 1. Addition of a superuser.
+2. Integration of a payment model.
