@@ -45,13 +45,13 @@ Campsio is built using a variety of technologies, including:
 
 ## Screenshots
 
-Landing Page
+- Landing Page
 
 ![Landing Page](/images/Landing%20Page.png)
 
-Home Page
+- Home Page
 
-![Home Page](/images/Home%20Page.png.png)
+![Home Page](/images/Home%20Page.png)
 
 
 ## Contributing
