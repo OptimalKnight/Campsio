@@ -27,7 +27,7 @@ Campsio provides a range of features to help users search and outlook campsites 
 
 ## Installation
 
-Campsio is a web-based application that does not require any installation. To access the website, simply navigate to [this]() URL where the website is hosted.
+Campsio is a web-based application that does not require any installation. To access the website, simply navigate to [this](https://campsio.onrender.com) URL where the website is hosted.
 
 ## Usage
 
@@ -41,8 +41,8 @@ Campsio is built using a variety of technologies, including:
 - **Express:** A minimal and flexible Node.js web application framework
 - **MongoDB:** A document-based NoSQL database
 - **Bootstrap:** A CSS framework for building responsive web interfaces
-## Contributing
 
+## Contributing
 
 If you would like to contribute to Campsio, please follow these steps:
 
@@ -51,3 +51,9 @@ If you would like to contribute to Campsio, please follow these steps:
 3. Make your changes and commit them with descriptive commit messages
 4. Push your changes to your forked repository
 5. Submit a pull request to the original repository
+
+## Future Scope
+
+The project's scope can be furthur improved by implementing one or more of the following modifications,
+
+1. Addition of a superuser.
